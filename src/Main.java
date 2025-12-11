@@ -38,7 +38,6 @@ public class Main {
         Rescate rescate4= new Rescate(Deimos,barco,semaphore);
         Rescate rescate5= new Rescate(Expedicion,barco,semaphore);
 
-
         //Crear el hilo de rescates
         Thread hiloAcasta = new Thread(rescate1);
         Thread hiloBanff = new Thread(rescate2);
